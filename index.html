@@ -985,6 +985,16 @@
             .hero-date-badge .date-main { font-size: 22px; }
             .story-card { padding: 28px 20px; }
             .btn-cta { font-size: 17px; padding: 18px 36px; }
+
+            /* スマホ改行修正 */
+            .hero-kicker { font-size: 12px; padding: 6px 14px; gap: 6px; }
+            .hero-place  { font-size: 12px; }
+            .story-card p,
+            .counter-msg,
+            .access-bar .text span {
+                word-break: keep-all;
+                overflow-wrap: anywhere;
+            }
         }
     </style>
 </head>
@@ -1025,7 +1035,7 @@
             <span class="date-main">2026年 4月 12日（日）</span>
             <span class="date-sub">⏰ 10:00 〜 13:00　📍 住吉公園</span>
         </div>
-        <div class="hero-place">🚉 住吉大社駅よりすぐ ／ 住吉鳥居前駅よりすぐ</div>
+        <div class="hero-place">🚉 住吉大社駅よりすぐ<br>／ 住吉鳥居前駅よりすぐ</div>
     </div>
 </header>
 
