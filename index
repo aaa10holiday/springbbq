@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春の開運お花見BBQ | AAA10期休日クラス主催</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <canvas id="petal-canvas"></canvas>
+
+    <div class="sticky-progress">
+        <span class="label">🌸 エントリー急増中！</span>
+        <div class="bar-wrap">
+            <div class="bar-fill"></div>
+        </div>
+        <span class="count">現在 37 名</span>
+    </div>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="sun"></div>
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+
+        <div class="grass-hill">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" preserveAspectRatio="none"
+                style="display:block;">
+                <path
+                    d="M0,160 C200,100 400,200 600,150 C800,100 1000,190 1200,130 C1300,100 1380,140 1440,130 L1440,220 L0,220 Z"
+                    fill="#7BC67A" opacity="0.6" />
+                <path
+                    d="M0,185 C150,160 350,200 550,175 C750,150 950,195 1150,165 C1280,148 1380,175 1440,165 L1440,220 L0,220 Z"
+                    fill="#5AA55A" />
+                <path d="M0,200 C200,188 450,210 700,195 C950,180 1200,205 1440,195 L1440,220 L0,220 Z"
+                    fill="#3A7D44" />
+            </svg>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-kicker">🌸 AAA10期休日クラス主催 ｜ 春の恒例イベント</div>
+            <div class="hero-title-wrap">
+                <h1 class="hero-title">
+                    春の開運<br><span class="accent">お花見BBQ</span>
+                </h1>
+            </div>
+            <div class="hero-date-elegant">
+                <div class="date-main">2026年 4月 12日<span>（日）</span></div>
+                <div class="date-sub">
+                    <span class="time">10:00 〜 13:00</span>
+                    <span class="place">住吉公園</span>
+                </div>
+            </div>
+            <div class="hero-place">🚉 住吉大社駅よりすぐ ／ 住吉鳥居前駅よりすぐ</div>
+        </div>
+    </header>
+
+    <section class="section story-section">
+        <div class="inner">
+            <h2 class="sec-title reveal">
+                <span class="en">SMART GOAL</span>
+                夏のリベンジ、ここから始まる
+            </h2>
+            <div class="story-body reveal">
+                <p class="story-lead">前回の夏の開運BBQのリベンジです！あの日みんなで笑って食べて飲んで、最高に楽しかったあの空間を——<strong>今度は桜の下でやります。</strong>
+                </p>
+                <p>春の陽気の中、桜吹雪を浴びながら食べるBBQは格別！開運パワースポット「住吉大社」のそばで、最高のエネルギー空間を一緒に作ろう！他期生・ご家族・パートナーも大歓迎です🌸</p>
+                <img src="images/bbq_sakura.jpg" alt="前回のBBQの様子" class="story-bbq-img"
+                    onerror="this.style.display='none'">
+            </div>
+
+            <div class="counter-elegant reveal">
+                <p class="counter-elegant-label">現在のエントリー人数</p>
+                <div class="counter-elegant-numbers">
+                    <span class="counter-now">37</span>
+                    <span class="counter-unit">名 突破！</span>
+                </div>
+                <div class="counter-elegant-line"></div>
+                <p class="counter-elegant-msg">
+                    参加者続々増加中！ 人数が増えるほどエネルギーも倍増。<br>
+                    <strong>まだまだ大歓迎！</strong> あなたの参加をお待ちしています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="sakura-divider">🌸 ❀ 🌸 ❀ 🌸</div>
+
+
+    <!-- 開催要項 -->
+    <section class="section info-section">
+        <div class="inner">
+            <h2 class="sec-title reveal">
+                <span class="en">Event Details</span>
+                開催要項・アクセス
+            </h2>
+            <div class="info-list reveal">
+
+                <div class="info-row">
+                    <div class="info-row-label">
+                        <span class="info-en">DATE &amp; TIME</span>
+                        <span class="info-ja">日時</span>
+                    </div>
+                    <div class="info-row-value">
+                        <strong>4月12日（日）10:00 〜 13:00</strong>
+                        <span class="info-note">雨天の場合は前日にご連絡します</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-row-label">
+                        <span class="info-en">VENUE</span>
+                        <span class="info-ja">場所</span>
+                    </div>
+                    <div class="info-row-value">
+                        <strong>住吉公園　屋外BBQスペース</strong>
+                        <span class="info-note">住吉大社周辺の開運パワースポット！</span>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-row-label">
+                        <span class="info-en">PAYMENT</span>
+                        <span class="info-ja">支払方法</span>
+                    </div>
+                    <div class="info-row-value">
+                        <strong>PayPay / 現金</strong>
+                        <span class="info-note">事前決済（PayPay予定）・当日現金払いも可</span>
+                    </div>
+                </div>
+
+                <div class="info-row info-row-deadline">
+                    <div class="info-row-label">
+                        <span class="info-en">DEADLINE</span>
+                        <span class="info-ja">締切</span>
+                    </div>
+                    <div class="info-row-value">
+                        <strong>3月1日（日）</strong>
+                        <span class="info-note">人数確定のため、お早めの入力を！</span>
+                    </div>
+                </div>
+
+                <div class="info-row info-row-fee">
+                    <div class="info-row-label">
+                        <span class="info-en">FEE</span>
+                        <span class="info-ja">参加費</span>
+                    </div>
+                    <div class="info-row-value fee-grid">
+                        <div class="fee-item"><span class="fee-who">大人</span><span class="fee-price">¥5,000</span></div>
+                        <div class="fee-item"><span class="fee-who">中高生</span><span class="fee-price">¥3,500</span>
+                        </div>
+                        <div class="fee-item"><span class="fee-who">小学生</span><span class="fee-price">¥2,000</span>
+                        </div>
+                        <div class="fee-item"><span class="fee-who">3歳以上</span><span class="fee-price">¥1,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-row info-row-access">
+                    <div class="info-row-label">
+                        <span class="info-en">ACCESS</span>
+                        <span class="info-ja">アクセス</span>
+                    </div>
+                    <div class="info-row-value">
+                        <strong>南海本線「住吉大社」駅よりすぐ</strong><br>
+                        <strong>阪堺電気軌道（阪堺線）「住吉鳥居前」駅よりすぐ</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 会場マップ -->
+            <div class="venue-map-wrap reveal">
+                <div class="venue-map-title">
+                    <span>📍 会場マップ</span>
+                    <span class="venue-map-sub">住吉公園 桜広場内 有料BBQエリア</span>
+                </div>
+                <img src="images/image01.jpg" alt="住吉公園 桜広場内 有料バーベキューエリア マップ" class="venue-map-img" />
+            </div>
+
+            <!-- Googleマップ -->
+            <div class="gmap-wrap reveal">
+                <div class="venue-map-title"><span>🗺️ Googleマップで確認</span></div>
+                <div class="gmap-container">
+                    <iframe src="https://maps.google.com/maps?q=34.6116,135.4924&z=17&output=embed&hl=ja" width="100%"
+                        height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="住吉公園 Googleマップ">
+                    </iframe>
+                </div>
+                <a href="https://maps.google.com/?q=34.6116,135.4924" target="_blank" rel="noopener" class="gmap-link">
+                    📍 〒559-0002 大阪府大阪市住之江区浜口東１丁目１−１３ 住吉公園内<br>
+                    <span>Google マップで開く →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="sakura-divider">🌸 ❀ 🌸 ❀ 🌸</div>
+
+    <!-- キャンセルポリシー -->
+    <section class="section alert-section">
+        <div class="inner">
+            <h2 class="sec-title reveal">
+                <span class="en">Important</span>
+                キャンセルについて
+            </h2>
+            <div class="plain-note reveal">
+                <p class="plain-note-label">キャンセルポリシー</p>
+                <ul class="plain-list">
+                    <li><strong>4月10日（金）17:00以降</strong>のキャンセルは、キャンセル料100%が発生します。</li>
+                    <li>予定がまだ読めない方は、調整さんで「△」を入力しておいてください。</li>
+                    <li>当日急きょ欠席の場合も同様に100%のキャンセル料が発生しますのでご了承ください。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="sakura-divider">🌸 ❀ 🌸 ❀ 🌸</div>
+
+    <!-- FAQ -->
+    <section class="section faq-section">
+        <div class="inner">
+            <h2 class="sec-title reveal">
+                <span class="en">FAQ</span>
+                よくあるご質問
+            </h2>
+            <div class="reveal">
+                <details class="faq-item">
+                    <summary>
+                        <span class="q-badge">Q</span>
+                        飲み物や食材は自分で持っていくの？
+                        <span class="arrow">＋</span>
+                    </summary>
+                    <div class="faq-body">基本はこちらで準備します！ただ、「これだけは飲みたい／食べたい！」というこだわりのお酒や食材の持ち込みはOKです。食材管理は自己責任でお願いします☀️
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>
+                        <span class="q-badge">Q</span>
+                        家族や子供を連れて行ってもいい？
+                        <span class="arrow">＋</span>
+                    </summary>
+                    <div class="faq-body">大歓迎です！ご家族やパートナーと一緒にワイワイ楽しみましょう。調整さんに記入する際、コメント欄に「大人1名＋小学生1名」など内訳を書いてくださいね。
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>
+                        <span class="q-badge">Q</span>
+                        服装や持ち物で気をつけることは？
+                        <span class="arrow">＋</span>
+                    </summary>
+                    <div class="faq-body">屋外での開催です。春とはいえ朝は涼しいことがあります。上着や日除けの帽子など、必要と思うものは各自でご準備ください🙌 サンスクリーンもお忘れなく！
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <div class="sakura-divider">🌸 ❀ 🌸 ❀ 🌸</div>
+
+    <!-- 初辰まいり -->
+    <section class="section hatsutatu-section">
+        <div class="inner">
+            <h2 class="sec-title reveal">
+                <span class="en">Kaiun Power Spot</span>
+                開運！住吉大社の初辰まいり
+            </h2>
+            <div class="hatsutatu-body reveal">
+                <img src="images/sumiyoshi_shrine.jpg" alt="住吉大社" class="hatsutatu-shrine-img"
+                    onerror="this.style.display='none'">
+                <p class="hatsutatu-text">
+                    BBQ会場のすぐそば、住吉大社は<strong>「初辰まいり」</strong>で有名な開運パワースポット！せっかく来たなら、参拝して開運エネルギーもチャージしよう✨<br>4月12日（日）は<strong>初辰まいりの日</strong>にあたります🙏
+                </p>
+            </div>
+            <div class="hatsutatu-card reveal">
+                <div class="hatsutatu-badge">令和8年 初辰まいり日一覧</div>
+                <img src="images/image02.png" alt="令和8年 初辰まいり日一覧表" class="hatsutatu-img" />
+                <div class="hatsutatu-highlight">
+                    <span class="highlight-icon">⭐</span>
+                    <span>4月12日（日）は<strong>初辰まいりの日！</strong>BBQの前後に参拝して開運を！</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sakura-divider">🌸 ❀ 🌸 ❀ 🌸</div>
+
+    <!-- CTA -->
+    <section class="cta-section" id="apply">
+        <div class="inner">
+            <p class="cta-eyebrow">Join Us — さあ、春を楽しもう</p>
+            <h2>春の最高の一日を<br><em>あなたと過ごしたい</em></h2>
+            <div class="deadline">⏰ 出欠締切：<strong>3月1日（日）</strong></div>
+            <ul class="cta-check-list">
+                <li>予定が微妙な人は「△」でOK</li>
+                <li>家族連れはコメント欄に人数の内訳を記入</li>
+                <li>質問はいつでも気軽にどうぞ</li>
+            </ul>
+            <a href="https://chouseisan.com/s?h=913a7e72faf543aea218d1fd785c5a6a" class="btn-cta" target="_blank"
+                rel="noopener">📅 調整さんに入力する！</a>
+            <p class="cta-note">※入力は1分で完了します</p>
+        </div>
+    </section>
+
+    <!-- フローティングCTA -->
+    <div class="floating-cta" id="floating-cta">
+        <div class="floating-inner">
+            <div class="floating-text">
+                <strong>🌸 締切：3月1日（日）</strong>
+                出欠の入力がまだの方はこちら！
+            </div>
+            <a href="https://chouseisan.com/s?h=913a7e72faf543aea218d1fd785c5a6a" class="floating-btn" target="_blank"
+                rel="noopener">今すぐ入力 →</a>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
