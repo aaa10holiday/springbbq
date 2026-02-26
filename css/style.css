@@ -120,6 +120,37 @@ body {
     flex-shrink: 0;
 }
 
+
+
+/* =====================
+           動画ギャラリー
+        ===================== */
+.movie-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.movie-wrap {
+    margin: 40px auto 0;
+    max-width: 800px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(232, 117, 154, 0.15);
+    border: 1px solid rgba(232, 117, 154, 0.2);
+    padding: 8px;
+    /* 額縁のような余白 */
+}
+
+.bbq-movie {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    background: #fdf5f7;
+    /* 読み込み前のプレースホルダー色 */
+}
+
 /* =====================
            ヒーロー
         ===================== */
